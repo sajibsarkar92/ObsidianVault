@@ -1,0 +1,36 @@
+/* Ancient Weathered Scroll with Uneven Textures */
+.theme-light, .theme-dark {
+    --background-primary: #d2b48c !important; /* Base Tan */
+    --background-secondary: #bc9b6a !important; /* Darker Sidebar */
+    --text-normal: #2a1f1d !important; /* Iron-gall ink color */
+    --text-title-h1: #4a1c11 !important;
+    --font-text: 'Georgia', serif;
+}
+
+/* Layering the texture and the uneven shades */
+.view-content {
+    /* Layer 1: A subtle parchment grain texture from a CDN */
+    /* Layer 2: A radial gradient to create "uneven" burnt edges and stains */
+    background-image: 
+        url("https://www.transparenttextures.com/patterns/handmade-paper.png"),
+        radial-gradient(circle, rgba(210,180,140,0) 0%, rgba(139,69,19,0.15) 70%, rgba(60,30,10,0.3) 100%) !important;
+    background-color: #d2b48c !important;
+    background-blend-mode: multiply;
+}
+
+/* Creating "Wear and Tear" on the page edges */
+.markdown-source-view.mod-cm6 .cm-scroller, .markdown-rendered {
+    padding: 40px !important;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    /* This makes the edges look slightly "burnt" and uneven */
+    box-shadow: inset 0 0 80px 20px rgba(92, 64, 51, 0.2);
+}
+
+/* Stylized horizontal rules that look like ink strokes */
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #4a1c11, transparent);
+    margin: 20px 0;
+}

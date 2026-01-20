@@ -1,0 +1,52 @@
+# ==========================================
+# OBSIDIAN SPECIFIC (The Essentials)
+# ==========================================
+# These files store UI state like which file is open. 
+# Syncing these causes "Merge Conflicts" every time you switch OS.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/backlink.json
+.obsidian/core-plugins.json
+
+# If you use the Obsidian Git plugin, ignore its internal local state
+.obsidian/plugins/obsidian-git/data.json
+
+# Ignore the internal trash folder
+.trash/
+
+# ==========================================
+# OS GENERATED FILES
+# ==========================================
+# Windows junk
+[Dd]esktop.ini
+Thumbs.db
+$RECYCLE.BIN/
+
+# Linux junk (Fedora/Ubuntu)
+.directory
+.fuse_hidden*
+.nfs*
+.Trash-*
+
+# macOS (Just in case)
+.DS_Store
+._*
+
+# ==========================================
+# SOFTWARE ENGINEERING / C DEVELOPMENT (Pulse)
+# ==========================================
+# Ignore compiled binaries and objects from your C projects
+*.o
+*.obj
+*.out
+*.exe
+*.bin
+
+# If your Pulse project creates CSV logs or debug outputs
+*.csv
+debug.log
+
+# IDE Specifics (if you use VS Code on Fedora/Ubuntu)
+.vscode/
+.idea/
