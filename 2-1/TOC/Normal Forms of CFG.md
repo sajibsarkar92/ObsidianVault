@@ -315,7 +315,7 @@ Actually: B → b (generating), C → c (generating), so A → BC is generating!
 
 ## Example 7.1: Useless Symbol Elimination
 
-**INSERT PAGES 10-12 OF PDF HERE**
+![[Chapter-7-10.webp]]
 
 ### Original Grammar
 
@@ -326,6 +326,7 @@ B → ε (or some production that doesn't derive terminals)
 ```
 
 Let me use the actual example from the slides:
+
 
 **Original grammar:**
 
@@ -365,7 +366,7 @@ Wait, let me check the actual example again. Let me follow what the slides say:
 
 ### Correct Example 7.1
 
-**INSERT PAGE 11 OF PDF HERE**
+![[Chapter-7-11.webp]]
 
 **After eliminating B (non-generating):**
 
@@ -675,7 +676,7 @@ If G₁ is constructed by eliminating ε-productions from G, then: **L(G₁) = L
 
 **Example of unnecessary steps:**
 
-```
+```cpp
 S → A    (unit)
 A → B    (unit)
 B → a    (non-unit)

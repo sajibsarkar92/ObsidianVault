@@ -130,7 +130,7 @@ A **Pushdown Automaton (PDA)** is a computational model that extends finite auto
 
 **✓ Can Accept:**
 
-- L_wwR = {wwᴿ | w ∈ (0 + 1)*} - palindromes with reversal
+- L_${wwR}$} = {wwᴿ | w ∈ (0 + 1)*} - palindromes with reversal
     - Push first half onto stack
     - Pop and match with second half
     - Works because we access in reverse order!
