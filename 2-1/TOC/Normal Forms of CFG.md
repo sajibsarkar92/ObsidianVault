@@ -2,7 +2,8 @@
 
 ## Introduction to Normal Forms
 
-**INSERT PAGE 1 OF PDF HERE**
+
+![[Chapter-7-1.webp]]
 
 ### What are Normal Forms?
 
@@ -65,7 +66,8 @@ A **normal form** is a standardized way of writing grammar productions that foll
 
 ## Properties of Context-Free Languages
 
-**INSERT PAGES 2-3 OF PDF HERE**
+![[Chapter-7-2.webp]]
+![[Chapter-7-3.webp]]
 
 ### Equivalent Definitions of CFLs
 
@@ -146,7 +148,7 @@ A **normal form** is a standardized way of writing grammar productions that foll
 
 ## Goal of Normal Forms
 
-**INSERT PAGE 4 OF PDF HERE**
+![[Chapter-7-4.webp]]
 
 ### The Target: Chomsky Normal Form
 
@@ -186,7 +188,7 @@ A **normal form** is a standardized way of writing grammar productions that foll
 
 ## Simplification Steps Overview
 
-**INSERT PAGE 5 OF PDF HERE**
+![[Chapter-7-5.webp]]
 
 ### Three Required Simplifications
 
@@ -222,7 +224,8 @@ To achieve Chomsky Normal Form, we need three elimination steps:
 
 ## Eliminating Useless Symbols
 
-**INSERT PAGES 6-7 OF PDF HERE**
+![[Chapter-7-6.webp]]
+![[Chapter-7-7.webp]]
 
 ### Definition of Useful Symbols
 
@@ -292,7 +295,7 @@ Actually: B → b (generating), C → c (generating), so A → BC is generating!
 
 ## Elimination Algorithm
 
-**INSERT PAGE 9 OF PDF HERE**
+![[Chapter-7-9.webp]]
 
 ### Strategy
 
@@ -387,7 +390,7 @@ S → a
 
 ## Computing Generating Symbols
 
-**INSERT PAGE 13 OF PDF HERE**
+![[Chapter-7-13.webp]]
 
 ### Algorithm
 
@@ -444,7 +447,7 @@ All symbols are generating!
 
 ## Computing Reachable Symbols
 
-**INSERT PAGE 14 OF PDF HERE**
+![[Chapter-7-14.webp]]
 
 ### Algorithm
 
@@ -497,7 +500,7 @@ Not reachable: D
 
 ## Summary: Useless Symbol Elimination
 
-**INSERT PAGE 15 OF PDF HERE**
+![[Chapter-7-15.webp]]
 
 ### Complete Process
 
@@ -523,7 +526,7 @@ Not reachable: D
 
 ## Eliminating ε-Productions
 
-**INSERT PAGES 16-17 OF PDF HERE**
+![[Chapter-7-16.webp]]![[Chapter-7-17.webp]]
 
 ### Strategy and Goal
 
@@ -548,7 +551,7 @@ Not reachable: D
 
 ### Finding Nullable Variables
 
-**INSERT PAGE 18 OF PDF HERE**
+![[Chapter-7-18.webp]]
 
 **Basis:**
 
@@ -587,7 +590,7 @@ All variables are nullable!
 
 ## Theorem: Correctness of Nullable Algorithm
 
-**INSERT PAGE 19 OF PDF HERE**
+![[Chapter-7-19.webp]]
 
 ### Statement
 
@@ -618,7 +621,7 @@ For any grammar G, the only nullable symbols are the variables found by the null
 
 ## Constructing Grammar Without ε-Productions
 
-**INSERT PAGE 20 OF PDF HERE**
+![[Chapter-7-20.webp]]
 
 ### Construction Algorithm
 
@@ -657,8 +660,8 @@ If G₁ is constructed by eliminating ε-productions from G, then: **L(G₁) = L
 
 ## Eliminating Unit Productions
 
-**INSERT PAGES 21-22 OF PDF HERE**
-
+![[Chapter-7-21.webp]]
+![[Chapter-7-22.webp]]
 ### What are Unit Productions?
 
 **Definition:** A production of the form **A → B** where both A and B are variables is called a **unit production**.
@@ -683,7 +686,7 @@ Could be shortened to: S ⇒ a
 
 ### Unit Pairs
 
-**INSERT PAGE 23 OF PDF HERE**
+![[Chapter-7-23.webp]]
 
 **Definition:** (A, B) is a **unit pair** if A ⇒* B using only unit productions.
 
@@ -728,8 +731,9 @@ Unit pairs:
 
 ## Example 7.12: Eliminating Unit Productions
 
-**INSERT PAGES 24-26 OF PDF HERE**
-
+![[Chapter-7-24.webp]]
+![[Chapter-7-25.webp]]
+![[Chapter-7-26.webp]]
 ### Original Grammar (hypothetical structure)
 
 ```
@@ -778,7 +782,7 @@ Transitive closure:
 
 ### Step 3: Remove All Unit Productions
 
-**INSERT PAGE 26 OF PDF HERE**
+![[Chapter-7-26.webp]]
 
 **Result:** Grammar with no unit productions that generates the same language!
 
@@ -786,7 +790,7 @@ Transitive closure:
 
 ## Summary of Three Eliminations
 
-**INSERT PAGE 27 OF PDF HERE**
+![[Chapter-7-27.webp]]
 
 ### Theorem
 
@@ -805,7 +809,7 @@ If G is a CFG generating a language with at least one string (possibly including
 
 ## Proof Strategy
 
-**INSERT PAGE 28 OF PDF HERE**
+![[Chapter-7-28.webp]]
 
 ### Order of Operations
 
@@ -830,7 +834,7 @@ If G is a CFG generating a language with at least one string (possibly including
 
 ## Chomsky Normal Form Definition
 
-**INSERT PAGE 29 OF PDF HERE**
+![[Chapter-7-29.webp]]
 
 ### Formal Definition
 
@@ -864,7 +868,7 @@ A grammar G is in **Chomsky Normal Form (CNF)** if every production is in one of
 
 ## Converting to Chomsky Normal Form
 
-**INSERT PAGE 30 OF PDF HERE**
+![[Chapter-7-30.webp]]
 
 ### Two-Phase Construction
 
@@ -936,7 +940,8 @@ D₂ → DE     (last two)
 
 ## Example 7.15: Complete CNF Conversion
 
-**INSERT PAGES 31-34 OF PDF HERE**
+![[Chapter-7-31.webp]]
+![[Chapter-7-32.webp]]
 
 ### Original Grammar (after eliminations)
 
@@ -958,7 +963,7 @@ B → aBB | bS | b
 
 ### Step 1: Introduce Variables for Terminals
 
-**INSERT PAGE 32 OF PDF HERE**
+![[Chapter-7-32.webp]]
 
 **For terminal 'a':** Create Uₐ → a **For terminal 'b':** Create Uᵦ → b
 
