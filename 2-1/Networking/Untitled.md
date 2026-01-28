@@ -121,4 +121,10 @@ Personal server and domains
 sudo cp db.local db.s16.zhjlab.bd
 
 sudo nano db.s16.zhjlab.bd
+
+// changed loopback and all
+
+sudo nano named.config.local
 ```
+
+named.config.local
