@@ -479,7 +479,7 @@ Customer → ISP Caching Servers → Root/TLD/Authoritative
 #### 1. DNS Query Commands
 
 ```bash
-# dig +t a zhjlab.bd
+dig +t a zhjlab.bd
 ```
 **What it does**: Queries the A record (IPv4 address) for domain `zhjlab.bd`
 

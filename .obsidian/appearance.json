@@ -3,5 +3,6 @@
   "interfaceFontFamily": "Baskerville Old Face",
   "enabledCssSnippets": [],
   "baseFontSize": 15,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "textFontFamily": "Inter"
 }
