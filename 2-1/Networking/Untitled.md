@@ -92,11 +92,33 @@ dig: couldn't get address for 'ns1.s01.zhjlab.bd': no more
 
 ```
 
+```bash
 
+cd etc/bind/
+
+ls
+
+cat named.conf
+
+cat db.local
+
+```
 
 ---
 DNS Topics:
 	1. Dig
 	2. Host
 	3. Bind9
-	
+
+Personal server and domains
+
+	Name server IP: 10.17.100.RR
+	Domain : sRR.zhjlab.bd
+
+
+
+```bash
+sudo cp db.local db.s16.zhjlab.bd
+
+sudo nano db.s16.zhjlab.bd
+```
