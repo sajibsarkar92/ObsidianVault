@@ -12,9 +12,9 @@
 
 ### What is DNS?
 
-DNS (Domain Name System) is like the phonebook of the internet. When you type `www.google.com` into your browser, DNS translates that human-readable domain name into an IP address (like `142.250.185.46`) that computers can understand.
+DNS (Domain Name System) is like the phone book of the internet. When you type `www.google.com` into your browser, DNS translates that human-readable domain name into an IP address (like `142.250.185.46`) that computers can understand.
 
-**Analogy**: Think of DNS as a giant address book. Instead of remembering that your friend lives at "123 Main Street, Apartment 4B", you just remember their name "John". DNS does the same thing—it lets you remember "google.com" instead of "142.250.185.46".
+**Analogy**: Think of DNS as a giant address book. Instead of remembering that your friend lives at "123 Main Street, Apartment 4B", you just remember their name "John". DNS 222222222222222does the same thing—it lets you remember "google.com" instead of "142.250.185.46".
 
 ### How DNS Resolution Works
 
