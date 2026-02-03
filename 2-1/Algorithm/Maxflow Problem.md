@@ -1,4 +1,4 @@
-# Ford-Fulkerson Method (Edmonds-Karp) Implementation Guide
+ # Ford-Fulkerson Method (Edmonds-Karp) Implementation Guide
 
 ## Overview
 
@@ -35,7 +35,7 @@ The Ford-Fulkerson method computes the **Maximum Flow** in a flow network. We wi
     
 - `algorithm`: For `min()` to find the bottleneck.
     
-
+   
 C++
 
 ```cpp
@@ -86,7 +86,7 @@ int rGraph[V][V];
 - If we can find a path where every edge has room for more flow, we call this an **Augmenting Path**.
     
 - We use a `parent` array to remember the path we took, so we can walk backwards from the Sink to the Source later.
-    
+
 
 C++
 
