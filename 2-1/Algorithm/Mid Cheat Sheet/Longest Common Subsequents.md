@@ -101,7 +101,7 @@ We don't need a new DP calculation. We simply **backtrack** from the bottom-righ
 
 C++
 
-```
+```cpp
 string printLCS(string s1, string s2) {
     int m = s1.length();
     int n = s2.length();
