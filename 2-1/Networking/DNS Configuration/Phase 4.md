@@ -158,7 +158,7 @@ mail    IN      A       10.17.100.16
 
 ### Step 3: Syntax Verification (The "Spell-Check")
 
-**Why we are doing this:** BIND is extremely sensitive. If you forgot a semicolon `;`, a bracket `}`, or a tiny dot `.` at the end of a domain name, the service will simply refuse to start. Instead of restarting the server and having it crash, we use "pre-flight" tools to check our work.
+**Why we are doing this:** BIND is extremely sensitive. If you forgot a semicolon `;`, a bracket `}`, or a tiny dot `.` at the edig @127.0.0.1 www.s16.zhjlab.bdnd of a domain name, the service will simply refuse to start. Instead of restarting the server and having it crash, we use "pre-flight" tools to check our work.
 
 Think of this like a compiler for your code—it finds the bugs before you "run" the program.
 
