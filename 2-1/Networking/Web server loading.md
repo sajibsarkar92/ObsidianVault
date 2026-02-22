@@ -51,3 +51,45 @@ sudo nano index.html
 in this html, what you write will be displayed in the localhost and it will be viewed upon refresh
 
 
+# default page
+
+didnt catch it
+
+
+# virtual site
+
+
+ubuntu server documenttion
+
+how to guides
+
+web server
+
+
+[guide](https://ubuntu.com/server/docs/how-to/web-services/install-apache2/#install-apache2)
+
+go to part 2 of configuration settings
+
+
+```
+cd /etc/apache2
+```
+
+
+basic directives section
+
+```
+sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/mynewsite.conf
+```
+
+```
+cd /etc/apache2/
+```
+
+# open the copied file
+
+
+```
+sudo nano mynewsite.conf
+```
+
