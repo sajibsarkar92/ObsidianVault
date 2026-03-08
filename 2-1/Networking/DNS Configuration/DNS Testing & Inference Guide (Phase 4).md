@@ -82,4 +82,4 @@ When your teacher asks you to prove your lab works, show these three things in o
     
 2. **Authority Check:** `dig @127.0.0.1 www.s16.zhjlab.bd` (Show the **`aa` flag** and your **IP `10.17.100.16`**).
     
-3. **Consistency Check:** `dig @127.0.0.1 -t soa s16.zhjlab.bd` (Show that the **Serial Number** matches your latest update).git 
+3. **Consistency Check:** `dig @127.0.0.1 -t soa s16.zhjlab.bd` (Show that the **Serial Number** matches your latest update).

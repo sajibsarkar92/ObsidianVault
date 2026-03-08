@@ -1,4 +1,4 @@
-
+ 
 
 It is a command-line tool used to query **DNS (Domain Name System) Name Servers**. It is the industry standard for troubleshooting because it shows you the "raw" data coming back from the servers, unlike simpler tools like `nslookup`.
 
@@ -35,37 +35,23 @@ Using the `+trace` flag (which you had in your notes), `dig` acts like a GPS. It
 ---
 
 ![[Pasted image 20260218193621.png]]
-
-
 Here is a concise, line-by-line breakdown of your `dig` output:
 
 ### **The Request Metadata**
 
 - **`DiG 9.18.44`**: The version of the `dig` tool you are using.
-    
 - **`global options: +cmd`**: Confirms that the command-line arguments are being processed.
-    
 - **`Got answer:`**: Confirms the DNS server responded successfully.
-    
-
----
 
 ### **The Header Section**
 
 - **`opcode: QUERY`**: You performed a standard "Question" lookup.
-    
 - **`status: NOERROR`**: Success; the domain name exists and was found.
-    
 - **`id: 40381`**: A random number used to match this specific answer to your request.
-    
 - **`flags: qr rd ra`**:
-    
     - **`qr` (Query Response)**: This is a reply from a server.
-        
     - **`rd` (Recursion Desired)**: You asked the server to do the hard work of finding the IP.
-        
     - **`ra` (Recursion Available)**: The server confirmed it is capable of doing that work.
-        
 - **`QUERY: 1, ANSWER: 6, ...`**: You asked 1 question and received 6 different IP addresses in response.
     
 
@@ -74,22 +60,17 @@ Here is a concise, line-by-line breakdown of your `dig` output:
 ### **The Question Section**
 
 - **`;yahoo.com. IN A`**: This restates your question: "What is the **A** (IPv4) record for **yahoo.com**?"
-    
 
 ---
 
 ### **The Answer Section**
 
 - **`yahoo.com.`**: The name being looked up.
-    
 - **`1363`**: **TTL (Time to Live)**. The number of seconds remaining before this info expires from your local cache.
-    
 - **`IN`**: "Internet" (the class of the network).
-    
 - **`A`**: The record type (**Address**).
-    
 - **`74.6.231.21`**: The physical IPv4 address of the Yahoo server.
-    
+
 
 ---
 
